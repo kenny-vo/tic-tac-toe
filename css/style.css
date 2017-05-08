@@ -14,7 +14,7 @@
 }
 
 body {
-  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/a0/7b/3b/a07b3b57f071ef030835a694aaac1839.jpg');
+  background-image: url('https://i.redd.it/4laqdiv50awy.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -39,12 +39,12 @@ button {
 }
 
 .win {
-  background-color: darkgrey;
+  background-color: darkred;
 }
 
 h1, h3 {
   font-family: 'Indie Flower';
   font-size: 60px;
   font-weight: bold;
-  color: darkred;
+  color: brown;
 }
