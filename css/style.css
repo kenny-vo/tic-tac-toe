@@ -4,7 +4,7 @@
 
 .box {
   border: 1px solid black;
-  height: 150px;
+  height: 180px;
 }
 
 body {
@@ -12,16 +12,22 @@ body {
 }
 
 button {
-  border-top: 100px;
-  padding-top: 10px;
   width: 100px;
   height: 30px;
 }
 
 .playerOne {
-  background-color: red;
+  padding-top: 30px;
+  background-image: url('https://cdn4.iconfinder.com/data/icons/geomicons/32/672366-x-128.png');
+  background-repeat: no-repeat;
+
 }
 
 .playerTwo {
-  background-color: blue;
+  background-image: url('https://cdn2.iconfinder.com/data/icons/font-awesome/1792/circle-o-128.png');
+  background-repeat: no-repeat;
+}
+
+.win {
+  background-color: purple;
 }
