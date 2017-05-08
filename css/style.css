@@ -7,6 +7,11 @@
   height: 180px;
 }
 
+.score {
+  border: 1px solid black;
+  height: 20px;
+}
+
 body {
   background: lightgrey;
 }
@@ -17,15 +22,15 @@ button {
 }
 
 .playerOne {
-  padding-top: 30px;
   background-image: url('https://cdn4.iconfinder.com/data/icons/geomicons/32/672366-x-128.png');
   background-repeat: no-repeat;
-
+  background-position: center;
 }
 
 .playerTwo {
   background-image: url('https://cdn2.iconfinder.com/data/icons/font-awesome/1792/circle-o-128.png');
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .win {
