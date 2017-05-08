@@ -84,6 +84,7 @@ $(document).ready(function() {
   // reset
   $('.reset').click(function() {
     $('.col-xs-4').removeClass("playerOne playerTwo win");
+    $('#info').text("Player X. Your move.");
     moveCount = 0;
   });
 

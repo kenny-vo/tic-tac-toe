@@ -4,7 +4,8 @@
 
 .box {
   border: 1px solid black;
-  height: 180px;
+  height: 140px;
+  background-color: lightgrey;
 }
 
 .score {
@@ -13,7 +14,9 @@
 }
 
 body {
-  background: lightgrey;
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/a0/7b/3b/a07b3b57f071ef030835a694aaac1839.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 button {
@@ -34,5 +37,12 @@ button {
 }
 
 .win {
-  background-color: purple;
+  background-color: darkgrey;
+}
+
+h1, h3 {
+  font-family: 'Indie Flower';
+  font-size: 40px;
+  color: white;
+  text-shadow:
 }
