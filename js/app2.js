@@ -1,27 +1,22 @@
 // wait for the DOM to finish loading
+
+var moveCount = 0;
+var player = 'player 1';
+
 $(document).ready(function() {
 
   console.log('Sanity Check. You are Sane.');
-  var moveCount = 0;
-  var player = 'player 1';
-  var playerOneArray = new Array;
-  var playerTwoArray = new Array;
-
 // alternate players
   $('.col-xs-4').click(function(){
     if ( $(this).hasClass('playerOne') || $(this).hasClass('playerTwo')){
       $('#info').text("Nope. Taken.");
     } else if  (moveCount % 2 == 0) {
         $(this).addClass('playerOne');
-        playerOneArray.push($(this).attr('id'));
-        console.log(playerOneArray);
         $('#info').text("Player O. Your move.");
         player = 'player 2';
         moveCount++;
       } else {
         $(this).addClass('playerTwo');
-        playerTwoArray.push($(this).attr('id'));
-        console.log(playerTwoArray);
         $('#info').text("Player X. Your move.");
         player = 'player 1';
         moveCount++;
