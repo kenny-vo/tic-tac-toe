@@ -10,7 +10,7 @@ $(document).ready(function() {
     // blocks occupied squares
     if ( $(this).hasClass('playerOne') || $(this).hasClass('playerTwo')){
       $('#info').text("Nope. Taken.");
-    } else if  (moveCount % 2 == 0) {x
+    } else if  (moveCount % 2 == 0) {
         $(this).addClass('playerOne');
         $('#info').text("Player 1. Your move.");
         player = 'player 2';
