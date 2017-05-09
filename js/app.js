@@ -30,49 +30,49 @@ $(document).ready(function() {
   function checkWin (){
     if ( $('#1').hasClass('playerOne') &&  $('#2').hasClass('playerOne') && $('#3').hasClass('playerOne') ){
       $('#1').addClass('win') && $('#2').addClass('win') && $('#3').addClass('win');
-      $('#info').text("Player X is the winner!!");
+      $('#info').text("Player X has defeated you.");
     } else if ( $('#4').hasClass('playerOne') &&  $('#5').hasClass('playerOne') && $('#6').hasClass('playerOne') ){
         $('#4').addClass('win') && $('#5').addClass('win') && $('#6').addClass('win');
-        $('#info').text("Player X is the winner!!");
+        $('#info').text("Player X has defeated you.");
     } else if ( $('#7').hasClass('playerOne') &&  $('#8').hasClass('playerOne') && $('#9').hasClass('playerOne') ){
         $('#7').addClass('win') && $('#8').addClass('win') && $('#9').addClass('win');
-        $('#info').text("Player X is the winner!!");
+        $('#info').text("Player X has defeated you.");
     } else if ( $('#1').hasClass('playerOne') &&  $('#4').hasClass('playerOne') && $('#7').hasClass('playerOne') ){
         $('#1').addClass('win') && $('#4').addClass('win') && $('#7').addClass('win');
-        $('#info').text("Player X is the winner!!");
+        $('#info').text("Player X has defeated you.");
     } else if ( $('#2').hasClass('playerOne') &&  $('#5').hasClass('playerOne') && $('#8').hasClass('playerOne') ){
         $('#2').addClass('win') && $('#5').addClass('win') && $('#8').addClass('win');
-        $('#info').text("Player X is the winner!!");
+        $('#info').text("Player X has defeated you.");
     } else if ( $('#3').hasClass('playerOne') &&  $('#6').hasClass('playerOne') && $('#9').hasClass('playerOne') ){
         $('#3').addClass('win') && $('#6').addClass('win') && $('#9').addClass('win');
-        $('#info').text("Player X is the winner!!");
+        $('#info').text("Player X has defeated you.");
     } else if ( $('#1').hasClass('playerOne') &&  $('#5').hasClass('playerOne') && $('#9').hasClass('playerOne') ){
         $('#1').addClass('win') && $('#5').addClass('win') && $('#9').addClass('win');
-        $('#info').text("Player X is the winner!!");
+        $('#info').text("Player X has defeated you.");
     } else if ( $('#3').hasClass('playerOne') &&  $('#5').hasClass('playerOne') && $('#7').hasClass('playerOne') ){
         $('#3').addClass('win') && $('#5').addClass('win') && $('#7').addClass('win');
-        $('#info').text("Player X is the winner!!");
+        $('#info').text("Player X has defeated you.");
     } else if ( $('#4').hasClass('playerTwo') &&  $('#5').hasClass('playerTwo') && $('#6').hasClass('playerTwo') ){
         $('#4').addClass('win') && $('#5').addClass('win') && $('#6').addClass('win');
-        $('#info').text("Player O is the winner!!");
+        $('#info').text("Player O has defeated you.");
     } else if ( $('#7').hasClass('playerTwo') &&  $('#8').hasClass('playerTwo') && $('#9').hasClass('playerTwo') ){
         $('#7').addClass('win') && $('#8').addClass('win') && $('#9').addClass('win');
-        $('#info').text("Player O is the winner!!");
+        $('#info').text("Player O has defeated you.");
     } else if ( $('#1').hasClass('playerTwo') &&  $('#4').hasClass('playerTwo') && $('#7').hasClass('playerTwo') ){
         $('#1').addClass('win') && $('#4').addClass('win') && $('#7').addClass('win');
-        $('#info').text("Player O is the winner!!");
+        $('#info').text("Player O has defeated you.");
     } else if ( $('#2').hasClass('playerTwo') &&  $('#5').hasClass('playerTwo') && $('#8').hasClass('playerTwo') ){
         $('#2').addClass('win') && $('#5').addClass('win') && $('#8').addClass('win');
-        $('#info').text("Player O is the winner!!");
+        $('#info').text("Player O has defeated you.");
     } else if ( $('#3').hasClass('playerTwo') &&  $('#6').hasClass('playerTwo') && $('#9').hasClass('playerTwo') ){
         $('#3').addClass('win') && $('#6').addClass('win') && $('#9').addClass('win');
-        $('#info').text("Player O is the winner!!");
+        $('#info').text("Player O has defeated you.");
     } else if ( $('#1').hasClass('playerTwo') &&  $('#5').hasClass('playerTwo') && $('#9').hasClass('playerTwo') ){
         $('#1').addClass('win') && $('#5').addClass('win') && $('#9').addClass('win');
-        $('#info').text("Player O is the winner!!");
+        $('#info').text("Player O has defeated you.");
     } else if ( $('#3').hasClass('playerTwo') &&  $('#5').hasClass('playerTwo') && $('#7').hasClass('playerTwo') ){
         $('#3').addClass('win') && $('#5').addClass('win') && $('#7').addClass('win');
-        $('#info').text("Player O is the winner!!");
+        $('#info').text("Player O has defeated you.");
       // draw
     } else if (moveCount === 9) {
         $('#info').text("It's a draw. Fight to the death.");
